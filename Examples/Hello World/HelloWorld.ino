@@ -26,7 +26,7 @@ void loop()                                     // LOOP
     tft.setCursor (80, 40);                       // Move our "pen" to the center of the screen
     tft.printf("HelloWorld");                   // This uses the standard ADAFruit small font-- very basic API, recommend using drawString()
     digitalWrite(LED_PIN, HIGH);                // Turn on LED...
-    delay(500);                                 // ...for .5 sec
+    delay(250);                                 // ...for .5 sec
     digitalWrite(LED_PIN, LOW);                 // Turn it off
     delay(500);
   }
