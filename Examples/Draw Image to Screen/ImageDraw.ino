@@ -24,6 +24,7 @@ void setup(void)                                // SETUP
   //  3 = touch button on left side for left-handed people (assuming you wear your watch on the right side)
   
   tft.setSwapBytes(true);                       // Needed for reading the .h file correctly
+  tft.fillScreen(TFT_BLACK);                    // Gotta clear the screen or else
   tft.pushImage(0, 0, 160, 80, SOMETHING);      // This is the line that writes the image-- make sure you change SOMETHING to the name of your file
   pinMode(LED_PIN, OUTPUT);                     // Setup LED pin
 }
