@@ -23,7 +23,7 @@ This little package actually packs a punch, housing
 + ESP32-PICO-D4 (WiFi/BT and clocks @ 240MHz) 
 + ST7735 160x80 Color Display
 + LSM9DS1 9DOF Sensor
-+ RTC w/ built-in battery
++ PCF8563 RTC (battery-backed, too)
 + 3.7v 80mAh battery (yeah, its pretty small)
 + Capacitive-touch button
 + SMD Red LED (right next to the touch-button)
@@ -35,9 +35,10 @@ This little package actually packs a punch, housing
 
 ## Datasheet
 
-- [ESP32-PICO-D4](https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf): Main ESP Chip
-- [ST7735](http://www.displayfuture.com/Display/datasheet/controller/ST7735.pdf): Screen
-- [LSM9DS1](https://www.st.com/resource/en/datasheet/lsm9ds1.pdf): 9DOF Sensor
+- [ESP32-PICO-D4:](https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf) Main ESP Chip
+- [PCF8563:](https://www.nxp.com/docs/en/data-sheet/PCF8563.pdf) RTC
+- [ST7735:](http://www.displayfuture.com/Display/datasheet/controller/ST7735.pdf) Screen
+- [LSM9DS1:](https://www.st.com/resource/en/datasheet/lsm9ds1.pdf) 9DOF Sensor
 
 
 ## Pin definition
