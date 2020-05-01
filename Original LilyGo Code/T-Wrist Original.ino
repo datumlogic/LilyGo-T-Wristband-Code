@@ -12,8 +12,8 @@
 //  git clone -b development https://github.com/tzapu/WiFiManager.git
 #include <WiFiManager.h>         //https://github.com/tzapu/WiFiManager
 
-// #define FACTORY_HW_TEST     //! Test RTC and WiFi scan when enabled
-// #define ARDUINO_OTA_UPDATE      //! Enable this line OTA update
+#define FACTORY_HW_TEST     //! Test RTC and WiFi scan when enabled
+#define ARDUINO_OTA_UPDATE      //! Enable this line OTA update
 
 #ifndef ST7735_SLPIN
 #define ST7735_SLPIN    0x10
