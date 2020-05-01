@@ -25,6 +25,7 @@ This little package actually packs a punch, housing
 + LSM9DS1 9DOF Sensor
 + PCF8563 RTC (battery-backed, too)
 + 3.7v 80mAh battery (yeah, its pretty small)
++ Uses ADC pin to monitor & measure battery levels
 + Capacitive-touch button
 + SMD Red LED (right next to the touch-button)
 + Ribbon-cable expansion port for expander/programmer board
