@@ -1,4 +1,4 @@
-# LilyGo T-Wristband Code
+# T-Wristband Code
 
 ## Why
 
