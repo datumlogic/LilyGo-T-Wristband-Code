@@ -8,4 +8,5 @@ Two compile options are available
 
 Read the Manufacturer's repo [here](https://github.com/Xinyuan-LilyGO/LilyGo-T-Wristband/blob/master/examples/T-Wristband-LSM9DS1/README.MD)
 > Beware: it may confuse you more after reading their pages
+
 > Also Beware: this program/example is very power hungry- battery life is like 20 mins tops
