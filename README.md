@@ -29,7 +29,7 @@ This little package actually packs a punch, housing
 + SMD Red LED (right next to the touch-button)
 + Ribbon-cable expansion port for expander/programmer board
 
-## Original LilyGo Code
+## Original Manufacturer Code
 
 [Find it here,](https://github.com/Xinyuan-LilyGO/LilyGo-T-Wristband) but be prepared to see red at the bottom of your IDE
 
